@@ -1450,7 +1450,7 @@ void write_binary_item( FILE *fp , int file_type , int int_val , unsigned int ui
 	unsigned short ushort_val;
 	short short_val;
 	float float_val;
-	void *value;
+	void *value = nullptr;
 
 	switch (type) {
 	case PLY_CHAR:
